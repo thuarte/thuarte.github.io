@@ -1,0 +1,8 @@
+
+/* Gallery items */
+.gallery-item {
+  opacity: 1.0;
+}
+.gallery-item:hover {
+  opacity: 0.9;
+}

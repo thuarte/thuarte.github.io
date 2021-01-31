@@ -1,3 +1,3 @@
 # thuarte.github.io
-Art for the art sake
+Art for art sake
 Website published on https://thuarte.github.io
