@@ -6,3 +6,23 @@
 .gallery-item:hover {
   opacity: 0.9;
 }
+
+/* Gallery panels */
+.gallery-panel {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+.gallery-panel-item {
+  display: table-cell;
+}
+@media (min-width: 576px) {
+  .gallery-panel-left {
+    margin-right: 1rem;
+  }
+  .gallery-panel-right {
+    margin-left: 1rem;
+  }
+  .gallery-panel-center  {
+  }
+}
