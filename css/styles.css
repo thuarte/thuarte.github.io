@@ -18,11 +18,13 @@
 }
 @media (min-width: 576px) {
   .gallery-panel-left {
-    margin-right: 1rem;
+    margin-right: 0.25rem;
   }
   .gallery-panel-right {
-    margin-left: 1rem;
+    margin-left: 0.25rem;
   }
   .gallery-panel-center  {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
   }
 }
