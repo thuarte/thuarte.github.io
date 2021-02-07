@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Thư Arte - Art for art sake</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-light sticky-top bg-light">
+  <a class="navbar-brand" href="index.html">
+    <img class="nav-logo" src="pics/home.svg" alt="Logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery_acrylic.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="activities.html">Activities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="exhibitions.html">Exhibitions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<style type="text/css">
+  .protectedmail::after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .protectedphone::after {
+    content: attr(data-start) " " attr(data-middle) " " attr(data-end);
+    vertical-align: middle;
+  }
+  i {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    min-width: 40px;
+  }
+</style>
+
+<div class="container">
+
+  <h1>Contact</h1>
+  
+  <div class="py-1">
+    <span>
+      <i class="material-icons text-primary">location_on</i>
+      <span>Schöneggstrasse 18, 2503 Biel/Bienne, Switzerland</span>
+    </span>
+  </div>
+
+  <div class="py-1">
+    <i class="material-icons text-primary">email</i>
+    <a href="#" class="protectedmail"
+      data-name="thuarte.web"
+      data-domain="gmail"
+      data-tld="com"
+      onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+    </a>
+  </div>
+
+  <div class="py-1">
+    <i class="material-icons text-primary">phone</i>
+    <a href="#" class="protectedphone"
+      data-start="+41"
+      data-middle="77 513"
+      data-end="03 65"
+      onclick="window.location.href = 'tel:' + this.dataset.start + ' ' + this.dataset.middle + ' ' + this.dataset.end; return false;">
+    </a>
+    <span class="text-muted small pr-3">(CH)</span>
+    
+    <a href="#" class="protectedphone"
+      data-start="+84"
+      data-middle="786 33"
+      data-end="19 97"
+      onclick="window.location.href = 'tel:' + this.dataset.start + ' ' + this.dataset.middle + ' ' + this.dataset.end; return false;">
+    </a>
+    <span class="text-muted small pr-3">(VN)</span>
+  </div>
+
+  </div>
+  
+</div>
+
+</body>
+</html> 
