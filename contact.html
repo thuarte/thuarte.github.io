@@ -44,18 +44,21 @@
 <style type="text/css">
   .protectedmail::after {
     content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
-    display: inline-block;
-    vertical-align: middle;
   }
   .protectedphone::after {
     content: attr(data-start) " " attr(data-middle) " " attr(data-end);
-    vertical-align: middle;
   }
-  i {
+  table tr td {
+    padding-bottom: 10px;
+  }
+  table tr td:first-child {
+    min-width: 40px;
+  }
+  table tr td i {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    min-width: 40px;
+    width: 100%;
   }
 </style>
 
@@ -63,41 +66,57 @@
 
   <h1>Contact</h1>
   
-  <div class="py-1">
-    <span>
-      <i class="material-icons text-primary">location_on</i>
-      <span>Schöneggstrasse 18, 2503 Biel/Bienne, Switzerland</span>
-    </span>
-  </div>
-
-  <div class="py-1">
-    <i class="material-icons text-primary">email</i>
-    <a href="#" class="protectedmail"
-      data-name="thuarte.web"
-      data-domain="gmail"
-      data-tld="com"
-      onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
-    </a>
-  </div>
-
-  <div class="py-1">
-    <i class="material-icons text-primary">phone</i>
-    <a href="#" class="protectedphone"
-      data-start="+41"
-      data-middle="77 513"
-      data-end="03 65"
-      onclick="window.location.href = 'tel:' + this.dataset.start + ' ' + this.dataset.middle + ' ' + this.dataset.end; return false;">
-    </a>
-    <span class="text-muted small pr-3">(CH)</span>
+  <table>
+    <tr>
+      <td>
+        <i class="material-icons text-primary">location_on</i>
+      </td>
+      <td>
+        Schöneggstrasse&nbsp;18, 2503&nbsp;Biel/Bienne, Switzerland
+      </td>
+    </tr>
     
-    <a href="#" class="protectedphone"
-      data-start="+84"
-      data-middle="786 33"
-      data-end="19 97"
-      onclick="window.location.href = 'tel:' + this.dataset.start + ' ' + this.dataset.middle + ' ' + this.dataset.end; return false;">
-    </a>
-    <span class="text-muted small pr-3">(VN)</span>
-  </div>
+    <tr>
+      <td>
+        <i class="material-icons text-primary">email</i>
+      </td>
+      <td>
+        <a href="#" class="protectedmail"
+          data-name="thuarte.web"
+          data-domain="gmail"
+          data-tld="com"
+          onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <i class="material-icons text-primary">phone</i>
+      </td>
+      <td>
+        <span class="text-nowrap">
+          <a href="#" class="protectedphone"
+            data-start="+41"
+            data-middle="77 513"
+            data-end="03 65"
+            onclick="window.location.href = 'tel:' + this.dataset.start + ' ' + this.dataset.middle + ' ' + this.dataset.end; return false;">
+          </a>
+          <span class="text-muted small pr-3">(CH)</span>
+        </span>
+        
+        <span class="text-nowrap">
+          <a href="#" class="protectedphone"
+            data-start="+84"
+            data-middle="786 33"
+            data-end="19 97"
+            onclick="window.location.href = 'tel:' + this.dataset.start + ' ' + this.dataset.middle + ' ' + this.dataset.end; return false;">
+          </a>
+          <span class="text-muted small pr-3">(VN)</span>
+        </span>
+      </td>
+    </tr>
+  </table>
   
 </div>
 
