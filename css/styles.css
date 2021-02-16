@@ -1,3 +1,31 @@
+/* Picture buttons */
+.picture-btn {
+  background-attachment: local;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+}
+.picture-btn:hover {
+  opacity: 0.9;
+}
+.picture-btn-acrylic {
+  background-image: url('../pics/gallery/acrylic/utopia.jpg');
+}
+.picture-btn-monoprint {
+  background-image: url('../pics/gallery/monoprint/moon_river.jpg');
+}
+.picture-btn-silk {
+  background-image: url('../pics/gallery/silk/bridal_shop_right.jpg');
+}
+.picture-btn-oil {
+  background-image: url('../pics/gallery/oil/still_alive.jpg');
+}
+.picture-btn-text{
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  -webkit-text-stroke: 1px gray;
+}
 
 /* Gallery items */
 .gallery-item {
