@@ -3,6 +3,32 @@ h1 {
   margin-top: 18px;
 }
 
+/* Carousel buttons */
+.carousel-btn {
+  display: none;
+  border: 0.1em solid #FFFFFF;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin: 0.5em;
+}
+.carousel-btn:hover {
+  color: #0A0A0A;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 576px) {
+  .carousel-btn{
+    display: inline-block;
+  }
+}
+
 /* Picture buttons */
 .picture-btn {
   background-attachment: local;
