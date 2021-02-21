@@ -1,3 +1,3 @@
 # thuarte.github.io
-Art for art's sake
+Thư Arte - Treat your soul
 Website published on https://thuarte.github.io
