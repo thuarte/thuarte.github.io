@@ -40,22 +40,41 @@ h1 {
   opacity: 0.9;
 }
 .picture-btn-acrylic {
-  background-image: url('../pics/menu/acrylic.jpg');
+  background-image: url('../pics/menu1/acrylic.jpg');
 }
 .picture-btn-monoprint {
-  background-image: url('../pics/menu/monoprint.jpg');
+  background-image: url('../pics/menu1/monoprint.jpg');
 }
 .picture-btn-silk {
-  background-image: url('../pics/menu/silk.jpg');
+  background-image: url('../pics/menu1/silk.jpg');
 }
 .picture-btn-oil {
-  background-image: url('../pics/menu/oil.jpg');
+  background-image: url('../pics/menu1/oil.jpg');
 }
 .picture-btn-text{
   font-weight: bold;
   text-align: center;
   color: white;
   -webkit-text-stroke: 1px gray;
+}
+
+/* Menu cards */
+.menu-card {
+  opacity: 1.0;
+  height: 100%;
+  background-color: #f8f9fa;
+}
+.menu-card:hover {
+  opacity: 0.9;
+}
+.menu-card-img {
+  display: block;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 /* Gallery items */
