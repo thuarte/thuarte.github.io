@@ -10,6 +10,7 @@ $(document).ready(function(){
 	// Get info form clicked element
 	var title = $(this).find(".card-title").text();
 	var image = $(this).find("img").first();
+	var infos = $(this).find(".card-text")
 	
 	// Set modal style and structure
 	var modal = $("#galleryModal");
@@ -26,7 +27,11 @@ $(document).ready(function(){
 	$(modal).find(".modal-body").html('<img class="w-100" src="' + $(image).attr("src") + '">');
 	$(modal).find(".modal-footer").html('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
 	
+	$(infos).each(function () {
+	  $(modal).find(".modal-body").append('<span class="pr-4">' + $(this).html() + '</span>');
+	});
+	
 	// Display modal
-    $(modal).modal();
+	$(modal).modal();
   });
 });
