@@ -1,1 +1,2 @@
-﻿Sitemap: https://thuarte.github.io/sitemap.xml
+User-agent: *
+Sitemap: https://thuarte.github.io/sitemap.xml
