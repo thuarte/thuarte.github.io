@@ -54,10 +54,16 @@ h1 {
 .picture-btn-text{
   font-weight: bold;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   color: white;
   -webkit-text-stroke: 1px gray;
+}
+@media (min-width: 992px) { /* lg */
+  .picture-btn-text {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 /* Menu cards */
@@ -96,7 +102,7 @@ h1 {
 .gallery-panel-item {
   display: table-cell;
 }
-@media (min-width: 576px) {
+@media (min-width: 576px) { /* sm */
   .gallery-panel-left {
     margin-right: 0.25rem;
   }
