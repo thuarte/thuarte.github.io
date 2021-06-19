@@ -95,6 +95,21 @@ h1 {
   border-radius: 50%;
 }
 
+/* Card columns */
+.card-columns {
+  column-count: 1;
+}
+@media (min-width: 576px) { /* sm */
+  .card-columns {
+    column-count: 2;
+  }
+}
+@media (min-width: 992px) { /* lg */
+  .card-columns {
+    column-count: 3;
+  }
+}
+
 /* Gallery items */
 .gallery-item {
   opacity: 1.0;
