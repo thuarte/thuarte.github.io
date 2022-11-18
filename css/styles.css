@@ -67,8 +67,15 @@ h1 {
   padding-top: 4rem;
   padding-bottom: 4rem;
   color: white;
-  -webkit-text-stroke: 1px gray;
-  paint-order: stroke fill;
+  text-shadow:
+    -1px -1px 0 gray,
+     0   -1px 0 gray,
+     1px -1px 0 gray,
+     1px  0   0 gray,
+     1px  1px 0 gray,
+     0    1px 0 gray,
+    -1px  1px 0 gray,
+    -1px  0   0 gray;
 }
 @media (min-width: 992px) { /* lg */
   .picture-btn-text {
