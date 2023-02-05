@@ -37,7 +37,7 @@ function getAlbumsAcrylic() {
         {
           title:'Tulips',
           url:'pics/gallery/acrylic/tulips.jpg',
-          comment:'Acrylic with plant fiber',
+          comment:'Acrylic on canvas',
           width:50, height:70, year:2021,
         },
 		{
