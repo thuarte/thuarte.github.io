@@ -14,7 +14,7 @@ function getAlbumsAcrylic() {
 		{
           title:'Summer love',
           url:'pics/gallery/acrylic/summer_love.jpg',
-          width:65, height:81, year:2022,
+          width:65, height:81, year:2022, 
         },
 		{
           title:"Flower's song",
