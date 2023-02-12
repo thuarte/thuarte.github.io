@@ -57,7 +57,7 @@ function getAlbumsAcrylic() {
     {
       name:'Mountains',
       image:'pics/gallery/acrylic/sacred_mountain3.jpg',
-	        pictures: [
+	  pictures: [
 		{
           title:'Sacred Mountains',
           url:'pics/gallery/acrylic/sacred_mountains.jpg',
@@ -92,7 +92,7 @@ function getAlbumsAcrylic() {
           title:'Sacred Mountain IV',
           url:'pics/gallery/acrylic/sacred_mountain4.jpg',
           comment:'Acrylic on canvas',
-          width:60, height:80, year:2021,
+          width:60, height:60, year:2021,
         },
 		{
           title:'Sacred Mountain V',
@@ -114,7 +114,6 @@ function getAlbumsAcrylic() {
         },
 	  ]
     },
-	  
     {
       name:'Enchanted Forests',
       image:'pics/gallery/acrylic/enchanted_forest2.jpg',
