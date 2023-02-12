@@ -50,13 +50,18 @@ function getAlbumsAcrylic() {
           title:'Joy',
           url:'pics/gallery/acrylic/joy.jpg',
           comment:'Acrylic on canvas',
-          width:40, height:30, year:2021, tag:'SOLD',
+          width:30, height:40, year:2021, tag:'SOLD',
         },
       ]
     },
     {
       name:'Mountains',
       image:'pics/gallery/acrylic/sacred_mountain3.jpg',
+    },
+	{
+          title:'Sacred Mountain',
+          url:'pics/gallery/acrylic/sacred_mountain1.jpg',
+          width:65, height:81, year:2021, 
     },
     {
       name:'Forests',
