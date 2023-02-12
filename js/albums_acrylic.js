@@ -58,11 +58,7 @@ function getAlbumsAcrylic() {
       name:'Mountains',
       image:'pics/gallery/acrylic/sacred_mountain3.jpg',
     },
-	{
-          title:'Sacred Mountain',
-          url:'pics/gallery/acrylic/sacred_mountain1.jpg',
-          width:65, height:81, year:2021, 
-    },
+	  
     {
       name:'Forests',
       image:'pics/gallery/acrylic/enchanted_forest2.jpg',
