@@ -14,7 +14,7 @@ function getAlbumsAcrylic() {
 		{
           title:'Summer love',
           url:'pics/gallery/acrylic/summer_love.jpg',
-          width:65, height:81, year:2022, 
+          width:65, height:81, year:2022,
         },
 		{
           title:"Flower's song",
@@ -58,12 +58,12 @@ function getAlbumsAcrylic() {
       name:'Mountains',
       image:'pics/gallery/acrylic/sacred_mountain3.jpg',
 	  pictures: [
-		{
+	    {
           title:'Sacred Mountains',
           url:'pics/gallery/acrylic/sacred_mountains.jpg',
           comment:'Acrylic on canvas',
           width:50, height:70, year:2021,
-        },
+		},
 		{
           title:'Tranquilité',
           url:'pics/gallery/acrylic/tranquillité.jpg',
@@ -113,10 +113,18 @@ function getAlbumsAcrylic() {
           width:100, height:80, year:2021, tag:'SOLD',
         },
 	  ]
-    },
-    {
+	},
+	{
       name:'Enchanted Forests',
       image:'pics/gallery/acrylic/enchanted_forest2.jpg',
+	  pictures: [
+	    {
+          title:'Sacred Mountains',
+          url:'pics/gallery/acrylic/sacred_mountains.jpg',
+          comment:'Acrylic on canvas',
+          width:50, height:70, year:2021,
+		},
+      ]
     },
   ];
-};
+}
