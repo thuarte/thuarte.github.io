@@ -119,10 +119,58 @@ function getAlbumsAcrylic() {
       image:'pics/gallery/acrylic/enchanted_forest2.jpg',
 	  pictures: [
 	    {
-          title:'Sacred Mountains',
-          url:'pics/gallery/acrylic/sacred_mountains.jpg',
+          title:'Enchanted Forest V',
+          url:'pics/gallery/acrylic/enchanted_forest5.jpg',
+          comment:'Acrylic, plant fiber on canvas',
+          width:60, height:80, year:2022,
+		},
+		{
+          title:'Enchanted Forest IV',
+          url:'pics/gallery/acrylic/enchanted_forest4.jpg',
+          comment:'Acrylic canvas',
+          width:60, height:60, year:2021,
+		},
+		{
+          title:'Enchanted Forest III',
+          url:'pics/gallery/acrylic/enchanted_forest3.jpg',
           comment:'Acrylic on canvas',
-          width:50, height:70, year:2021,
+          width:60, height:60, year:2021,
+		},
+		{
+          title:'Enchanted Forest II',
+          url:'pics/gallery/acrylic/enchanted_forest2.jpg',
+          comment:'Acrylic on canvas',
+          width:60, height:60, year:2021,
+		},
+		{
+          title:'Enchanted Forest I',
+          url:'pics/gallery/acrylic/enchanted_forest1.jpg',
+          comment:'Acrylic on canvas',
+          width:60, height:60, year:2021, tag:'SOLD',
+		},
+		{
+          title:'Enchanted Forest',
+          url:'pics/gallery/acrylic/enchanted_forest.jpg',
+          comment:'Acrylic on canvas',
+          width:30, height:30, year:2017,
+		},
+		{
+          title:"A night's symphony II",
+          url:'pics/gallery/acrylic/night_symphony2.jpg',
+          comment:'Acrylic on canvas',
+          width:60, height:60, year:2021,
+		},
+		{
+          title:"A night's symphony I",
+          url:'pics/gallery/acrylic/night_symphony1.jpg',
+          comment:'Acrylic on canvas',
+          width:30, height:40, year:2021, tag:'SOLD'
+		},
+		{
+          title:"Intuition",
+          url:'pics/gallery/acrylic/intuition.jpg',
+          comment:'Acrylic on canvas',
+          width:60, height:60, year:2021,
 		},
       ]
     },
