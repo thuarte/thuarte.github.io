@@ -125,16 +125,22 @@ function getAlbumsAcrylic() {
           width:60, height:80, year:2022,
 		},
 		{
-          title:'Enchanted Forest IV',
-          url:'pics/gallery/acrylic/enchanted_forest4.jpg',
-          comment:'Acrylic canvas',
-          width:60, height:60, year:2021,
-		},
-		{
           title:'Into the unknown',
           url:'pics/gallery/acrylic/into_the_unkown.jpg',
           comment:'Acrylic on canvas',
           width:60, height:80, year:2022,
+		},
+		{
+          title:"A night's symphony II",
+          url:'pics/gallery/acrylic/night_symphony2.jpg',
+          comment:'Acrylic on canvas',
+          width:60, height:60, year:2021,
+		},
+		{
+          title:'Enchanted Forest II',
+          url:'pics/gallery/acrylic/enchanted_forest2.jpg',
+          comment:'Acrylic on canvas',
+          width:60, height:60, year:2021,
 		},
 		{
           title:'Enchanted Forest III',
@@ -143,9 +149,9 @@ function getAlbumsAcrylic() {
           width:60, height:60, year:2021,
 		},
 		{
-          title:'Enchanted Forest II',
-          url:'pics/gallery/acrylic/enchanted_forest2.jpg',
-          comment:'Acrylic on canvas',
+          title:'Enchanted Forest IV',
+          url:'pics/gallery/acrylic/enchanted_forest4.jpg',
+          comment:'Acrylic canvas',
           width:60, height:60, year:2021,
 		},
 		{
@@ -159,12 +165,6 @@ function getAlbumsAcrylic() {
           url:'pics/gallery/acrylic/enchanted_forest.jpg',
           comment:'Acrylic on canvas',
           width:30, height:30, year:2017,
-		},
-		{
-          title:"A night's symphony II",
-          url:'pics/gallery/acrylic/night_symphony2.jpg',
-          comment:'Acrylic on canvas',
-          width:60, height:60, year:2021,
 		},
 		{
           title:"A night's symphony I",
