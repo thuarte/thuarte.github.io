@@ -131,6 +131,12 @@ function getAlbumsAcrylic() {
           width:60, height:60, year:2021,
 		},
 		{
+          title:'Into the unknown',
+          url:'pics/gallery/acrylic/into_the_unkown.jpg',
+          comment:'Acrylic on canvas',
+          width:60, height:80, year:2022,
+		},
+		{
           title:'Enchanted Forest III',
           url:'pics/gallery/acrylic/enchanted_forest3.jpg',
           comment:'Acrylic on canvas',
@@ -164,13 +170,31 @@ function getAlbumsAcrylic() {
           title:"A night's symphony I",
           url:'pics/gallery/acrylic/night_symphony1.jpg',
           comment:'Acrylic on canvas',
-          width:30, height:40, year:2021, tag:'SOLD'
+          width:30, height:40, year:2021, tag:'SOLD',
 		},
 		{
-          title:"Intuition",
+          title:'Intuition',
           url:'pics/gallery/acrylic/intuition.jpg',
           comment:'Acrylic on canvas',
           width:60, height:60, year:2021,
+		},
+		{
+          title:"A night's symphony I",
+          url:'pics/gallery/acrylic/night_symphony1.jpg',
+          comment:'Acrylic on canvas',
+          width:30, height:40, year:2021, tag:'SOLD',
+		},
+		{
+          title:"Childhood's dream",
+          url:'pics/gallery/acrylic/childhood_dream.jpg',
+          comment:'Acrylic on canvas',
+          width:19, height:24, year:2021,
+		},
+		{
+          title:"Once upon a december",
+          url:'pics/gallery/acrylic/december.jpg',
+          comment:'Acrylic on canvas',
+          width:19, height:24, year:2020, tag:'SOLD',
 		},
       ]
     },
