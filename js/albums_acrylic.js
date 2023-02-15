@@ -5,6 +5,7 @@ function getAlbumsAcrylic() {
 	albums = albums.concat(getAlbumSacredMountains());
 	albums = albums.concat(getAlbumEnchantedForests());
 	albums = albums.concat(getAlbumSeaLife());
+	albums = albums.concat(getAlbumAbstract());
 	
 	for (var album of albums) {
 		for (var picture of album.pictures) {
@@ -249,6 +250,133 @@ function getAlbumSeaLife() {
 				title:"Fantasia",
 				url:"pics/gallery/acrylic/fantasia.jpg",
 				width:19, height:24, year:2020,
+			},
+		]
+	}
+}
+
+function getAlbumAbstract() {
+	return {
+		name:"Abstract",
+		image:"pics/gallery/acrylic/infinity.jpg",
+		pictures: [
+			{
+				title:"Soliloquie",
+				url:"pics/gallery/acrylic/soliloquie.jpg",
+				width:100, height:80, year:2022,
+			},
+			{
+				title:"Abstract",
+				url:"pics/gallery/acrylic/abstract.jpg",
+				width:65, height:81, year:2022, tag:"SOLD",
+			},
+			{
+				title:"Desire",
+				url:"pics/gallery/acrylic/desire.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:50, height:100, year:2022, tag:"SOLD",
+			},
+			{
+				title:"Infinity",
+				url:"pics/gallery/acrylic/infinity.jpg",
+				width:65, height:81, year:2022,
+			},
+			{
+				title:"Impromptu",
+				url:"pics/gallery/acrylic/impromptu.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:65, height:81, year:2021,
+			},
+			{
+				title:"Enigma",
+				url:"pics/gallery/acrylic/enigma.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:65, height:81, year:2021,
+			},
+			{
+				title:"Melody of life",
+				url:"pics/gallery/acrylic/melody_of_life.jpg",
+				width:30, height:40, year:2021,
+			},
+			{
+				title:"Thinker",
+				url:"pics/gallery/acrylic/thinker.jpg",
+				width:30, height:40, year:2021,
+			},
+			{
+				title:"Garden of light",
+				url:"pics/gallery/acrylic/garden_of_light.jpg",
+				width:81, height:65, year:2021,
+			},
+			{
+				title:"Vitality",
+				url:"pics/gallery/acrylic/vitality.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:30, height:40, year:2021,
+			},
+			{
+				title:"Reconciliation",
+				url:"pics/gallery/acrylic/reconciliation.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:50, height:70, year:2021,
+			},
+			{
+				title:"Connection",
+				url:"pics/gallery/acrylic/connection.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:81, height:65, year:2021,
+			},
+			{
+				title:"Spring is here!",
+				url:"pics/gallery/acrylic/spring_is_here.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:81, height:65, year:2021,
+			},
+			{
+				title:"A night's symphony II",
+				url:"pics/gallery/acrylic/night_symphony2.jpg",
+				width:60, height:60, year:2021,
+			},
+			{
+				title:"Drifting",
+				url:"pics/gallery/acrylic/drifting.jpg",
+				width:40, height:40, year:2021, tag:"SOLD",
+			},
+			{
+				title:"Untitled",
+				url:"pics/gallery/acrylic/untitled001.jpg",
+				width:40, height:40, year:2021, tag:"SOLD",
+			},
+			{
+				title:"A blue blue soul",
+				url:"pics/gallery/acrylic/blue_soul.jpg",
+				width:20, height:30, year:2019,
+			},
+			{
+				title:"Time, Space and Existence",
+				url:"pics/gallery/acrylic/time_space_and_existence.jpg",
+				comment:"MEADOWS' collection",
+				width:30, height:30, year:2017,
+			},
+			{
+				title:"The doors",
+				url:"pics/gallery/acrylic/doors.jpg",
+				width:50, height:50, year:2017,
+			},
+			{
+				title:"Déjà vu",
+				url:"pics/gallery/acrylic/deja_vu.jpg",
+				width:50, height:50, year:2017,
+			},
+			{
+				title:"Utopia",
+				url:"pics/gallery/acrylic/utopia.jpg",
+				width:100, height:100, year:2016,
+			},
+			{
+				title:"Fiction",
+				url:"pics/gallery/acrylic/fiction.jpg",
+				width:60, height:40, year:2016,
 			},
 		]
 	}
