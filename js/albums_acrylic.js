@@ -4,7 +4,8 @@ function getAlbumsAcrylic() {
 	albums = albums.concat(getAlbumBlossoms());
 	albums = albums.concat(getAlbumSacredMountains());
 	albums = albums.concat(getAlbumEnchantedForests());
-
+	albums = albums.concat(getAlbumSeaLife());
+	
 	for (var album of albums) {
 		for (var picture of album.pictures) {
 			if (!picture.comment) {
@@ -189,6 +190,65 @@ function getAlbumEnchantedForests() {
 				title:"Once upon a december",
 				url:"pics/gallery/acrylic/december.jpg",
 				width:19, height:24, year:2020, tag:"SOLD",
+			},
+		]
+	}
+}
+
+function getAlbumSeaLife() {
+	return {
+		name:"Sea Life",
+		image:"pics/gallery/acrylic/rise.jpg",
+		pictures: [
+			{
+				title:"Rise",
+				url:"pics/gallery/acrylic/rise.jpg",
+				width:50, height:100, year:2022,
+			},
+			{
+				title:"Hope",
+				url:"pics/gallery/acrylic/hope.jpg",
+				width:81, height:65, year:2022,
+			},
+			{
+				title:"Imagine",
+				url:"pics/gallery/acrylic/imagine.jpg",
+				width:81, height:65, year:2022,
+			},
+			{
+				title:"Harmony",
+				url:"pics/gallery/acrylic/harmony.jpg",
+				width:50, height:100, year:2022, tag:"SOLD",
+			},
+			{
+				title:"Carousel",
+				url:"pics/gallery/acrylic/carousel.jpg",
+				width:65, height:81, year:2022,
+			},
+			{
+				title:"Color me happy",
+				url:"pics/gallery/acrylic/color_me_happy.jpg",
+				width:60, height:60, year:2021, tag:"SOLD",
+			},
+			{
+				title:"Journey",
+				url:"pics/gallery/acrylic/journey.jpg",
+				width:100, height:80, year:2021,
+			},
+			{
+				title:"The Seekers",
+				url:"pics/gallery/acrylic/the_seekers.jpg",
+				width:60, height:60, year:2021, tag:"SOLD",
+			},
+			{
+				title:"Adrift",
+				url:"pics/gallery/acrylic/adrift.jpg",
+				width:22, height:33, year:2020, tag:"SOLD",
+			},
+			{
+				title:"Fantasia",
+				url:"pics/gallery/acrylic/fantasia.jpg",
+				width:19, height:24, year:2020,
 			},
 		]
 	}
