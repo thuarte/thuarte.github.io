@@ -21,7 +21,7 @@ function createMenu(container, data){
 	container.append('<div class="row"></div>');
 	var div = container.find("div");
 	data.forEach(item => div.append(
-		'<div class="col-lg-4 col-md-6 mb-3">' +
+		'<div class="col-lg-4 col-md-6 mt-1 mb-4">' +
 		'<div class="card picture-btn" style="background-image: url(' + item.image + ')">' +
 		'<h2 class="picture-btn-text">' + item.name + '</h2>' +
 		'<div class="card-img-overlay">' +
