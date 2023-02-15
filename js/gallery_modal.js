@@ -10,7 +10,7 @@ $(document).ready(function(){
 		// Get info form clicked element
 		var title = $(this).find(".card-title").text();
 		var image = $(this).find("img").first();
-		var infos = $(this).find(".card-text")
+		var infos = $(this).find(".card-text");
 		
 		// Set modal style and structure
 		var modal = $("#galleryModal");
@@ -25,10 +25,12 @@ $(document).ready(function(){
 		$(modal).find(".modal-header").html('<h4 class="modal-title">' + title + '</h4>');
 		$(modal).find(".modal-header").append('<button type="button" class="close" data-dismiss="modal">&times;</button>');
 		$(modal).find(".modal-body").html('<img class="w-100" src="' + $(image).attr("src") + '">');
-		$(modal).find(".modal-body").append('<div id="modalInfo" class="d-flex justify-content-between"></div>');
+		$(modal).find(".modal-body").append('<div id="modalInfo" class="d-flex justify-content-between mt-2"></div>');
 		$(modal).find(".modal-footer").html('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
 		
-		$(infos).filter(d => d).each(function () {
+		$(infos).filter(function() {
+			return $(this).text().length > 0
+		}).each(function () {
 			$(modal).find("#modalInfo").append('<div>' + $(this).html() + '</div>');
 		});
 		
