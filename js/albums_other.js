@@ -80,29 +80,36 @@ function getAlbumOil() {
 		pictures: [
 			{
 				url:"pics/gallery/oil/dr_hung.jpg",
+				comment:"Oil on canvas",
 				year:2018, tag:"SOLD",
 			},
 			{
 				url:"pics/gallery/oil/wedding.jpg",
+				comment:"Oil on canvas",
 				year:2020,
 			},
 			{
 				url:"pics/gallery/oil/gate.jpg",
+				comment:"Oil on canvas",
 				year:2019, tag:"SOLD",
 			},
 			{
 				url:"pics/gallery/oil/city_view.jpg",
+				comment:"Oil on canvas",
 				year:2018,
 			},
 			{
 				url:"pics/gallery/oil/bread.jpg",
+				comment:"Oil on canvas",
 				year:2018, tag:"SOLD",
 			},
 			{
 				url:"pics/gallery/oil/still_life.jpg",
+				comment:"Oil on canvas",
 			},
 			{
 				url:"pics/gallery/oil/nude.jpg",
+				comment:"Oil on canvas",
 				year:2018,
 			},
 		]
