@@ -138,18 +138,8 @@ function getAlbumEnchantedForests() {
 				width:60, height:80, year:2022,
 			},
 			{
-				title:"A night's symphony II",
-				url:"pics/gallery/acrylic/night_symphony2.jpg",
-				width:60, height:60, year:2021,
-			},
-			{
 				title:"Enchanted Forest II",
 				url:"pics/gallery/acrylic/enchanted_forest2.jpg",
-				width:60, height:60, year:2021,
-			},
-			{
-				title:"Enchanted Forest III",
-				url:"pics/gallery/acrylic/enchanted_forest3.jpg",
 				width:60, height:60, year:2021,
 			},
 			{
@@ -158,14 +148,24 @@ function getAlbumEnchantedForests() {
 				width:60, height:60, year:2021,
 			},
 			{
-				title:"Enchanted Forest I",
-				url:"pics/gallery/acrylic/enchanted_forest1.jpg",
-				width:60, height:60, year:2021, tag:"SOLD",
+				title:"Intuition",
+				url:"pics/gallery/acrylic/intuition.jpg",
+				width:60, height:60, year:2021,
 			},
 			{
-				title:"Enchanted Forest",
-				url:"pics/gallery/acrylic/enchanted_forest.jpg",
-				width:30, height:30, year:2017,
+				title:"Enchanted Forest III",
+				url:"pics/gallery/acrylic/enchanted_forest3.jpg",
+				width:60, height:60, year:2021,
+			},
+			{
+				title:"Butterfly lovers",
+				url:"pics/gallery/acrylic/butterflies.jpg",
+				width:60, height:60, year:2020,
+			},
+			{
+				title:"A night's symphony II",
+				url:"pics/gallery/acrylic/night_symphony2.jpg",
+				width:60, height:60, year:2021,
 			},
 			{
 				title:"A night's symphony I",
@@ -173,8 +173,13 @@ function getAlbumEnchantedForests() {
 				width:30, height:40, year:2021, tag:"SOLD",
 			},
 			{
-				title:"Intuition",
-				url:"pics/gallery/acrylic/intuition.jpg",
+				title:"Enchanted Forest I",
+				url:"pics/gallery/acrylic/enchanted_forest1.jpg",
+				width:60, height:60, year:2021, tag:"SOLD",
+			},
+			{
+				title:"A crane's dream",
+				url:"pics/gallery/acrylic/cranes.jpg",
 				width:60, height:60, year:2021,
 			},
 			{
@@ -191,6 +196,11 @@ function getAlbumEnchantedForests() {
 				title:"Once upon a december",
 				url:"pics/gallery/acrylic/december.jpg",
 				width:19, height:24, year:2020, tag:"SOLD",
+			},
+			{
+				title:"Enchanted Forest",
+				url:"pics/gallery/acrylic/enchanted_forest.jpg",
+				width:30, height:30, year:2017,
 			},
 		]
 	}
@@ -282,6 +292,11 @@ function getAlbumAbstract() {
 				width:65, height:81, year:2022,
 			},
 			{
+				title:"Garden of light",
+				url:"pics/gallery/acrylic/garden_of_light.jpg",
+				width:81, height:65, year:2021,
+			},
+			{
 				title:"Impromptu",
 				url:"pics/gallery/acrylic/impromptu.jpg",
 				comment:"Acrylic, plant fiber on canvas",
@@ -302,11 +317,6 @@ function getAlbumAbstract() {
 				title:"Thinker",
 				url:"pics/gallery/acrylic/thinker.jpg",
 				width:30, height:40, year:2021,
-			},
-			{
-				title:"Garden of light",
-				url:"pics/gallery/acrylic/garden_of_light.jpg",
-				width:81, height:65, year:2021,
 			},
 			{
 				title:"Vitality",
@@ -333,9 +343,9 @@ function getAlbumAbstract() {
 				width:81, height:65, year:2021,
 			},
 			{
-				title:"A night's symphony II",
-				url:"pics/gallery/acrylic/night_symphony2.jpg",
-				width:60, height:60, year:2021,
+				title:"Paysage",
+				url:"pics/gallery/acrylic/paysage.jpg",
+				width:30, height:40, year:2021, tag:"SOLD",
 			},
 			{
 				title:"Drifting",
