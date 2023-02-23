@@ -178,6 +178,11 @@ function getAlbumEnchantedForests() {
 				width:60, height:60, year:2021, tag:"SOLD",
 			},
 			{
+				title:"Pursuit for happiness",
+				url:"pics/gallery/acrylic/pursuit_for_happiness.jpg",
+				width:150, height:70, year:2021,
+			},
+			{
 				title:"A crane's dream",
 				url:"pics/gallery/acrylic/cranes.jpg",
 				width:60, height:60, year:2021,
