@@ -217,6 +217,11 @@ function getAlbumSeaLife() {
 		image:"pics/gallery/acrylic/rise.jpg",
 		pictures: [
 			{
+				title:"Journey II",
+				url:"pics/gallery/acrylic/journey2.jpg",
+				width:80, height:80, year:2023,
+			},
+			{
 				title:"Rise",
 				url:"pics/gallery/acrylic/rise.jpg",
 				width:50, height:100, year:2022,
