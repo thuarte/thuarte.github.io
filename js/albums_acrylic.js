@@ -135,7 +135,7 @@ function getAlbumEnchantedForests() {
 			{
 				title:"Into the unknown",
 				url:"pics/gallery/acrylic/into_the_unkown.jpg",
-				width:60, height:80, year:2022,
+				width:60, height:80, year:2022, tag:"SOLD",
 			},
 			{
 				title:"Enchanted Forest II",
@@ -350,7 +350,7 @@ function getAlbumAbstract() {
 				title:"Spring is here!",
 				url:"pics/gallery/acrylic/spring_is_here.jpg",
 				comment:"Acrylic, plant fiber on canvas",
-				width:81, height:65, year:2021,
+				width:81, height:65, year:2021, tag:"SOLD",
 			},
 			{
 				title:"Paysage",
