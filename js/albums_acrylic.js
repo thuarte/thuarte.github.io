@@ -287,6 +287,18 @@ function getAlbumAbstract() {
 		image:"pics/gallery/acrylic/infinity.jpg",
 		pictures: [
 			{
+				title:"Vitality II",
+				url:"pics/gallery/acrylic/vitality2.jpg",
+				comment:"Acrylic, water colour on paper",
+				width:38, height:56, year:2023,
+			},
+			{
+				title:"Revitalisation",
+				url:"pics/gallery/acrylic/revitalisation.jpg",
+				comment:"Acrylic, water colour on paper",
+				width:38, height:56, year:2023,
+			},
+			{
 				title:"Soliloquie",
 				url:"pics/gallery/acrylic/soliloquie.jpg",
 				width:100, height:80, year:2022,
