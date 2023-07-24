@@ -52,7 +52,7 @@ h1 {
 .picture-btn-gallery {
   min-width: 100%;
   min-height: 400px;
-  background-image: url('../pics/carousel/gallery.jpg');
+  background-image: url('../pics/menu3/gallery.jpg');
 }
 @media (min-width: 992px) { /* lg */
   .picture-btn-gallery {
