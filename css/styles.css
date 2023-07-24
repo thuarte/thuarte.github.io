@@ -49,6 +49,21 @@ h1 {
 .picture-btn:hover {
   opacity: 0.9;
 }
+.picture-btn-gallery {
+  min-width: 100%;
+  min-height: 300px;
+  background-image: url('../pics/carousel/gallery.jpg');
+}
+@media (min-width: 576px) { /* sm */
+  .picture-btn-gallery {
+    min-height: 400px;
+  }
+}
+@media (min-width: 992px) { /* lg */
+  .picture-btn-gallery {
+    min-height: 500px;
+  }
+}
 .picture-btn-acrylic {
   background-image: url('../pics/menu1/acrylic.jpg');
 }
@@ -81,6 +96,38 @@ h1 {
   .picture-btn-text {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+.home-gallery-btn {
+  /* display: none; */
+  display: inline-block;
+  border: 0.1em solid #FFFFFF;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1vw 4vw;
+  width: 70%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin: 0.5em;
+}
+.home-gallery-btn:hover {
+  color: #0A0A0A;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 576px) { /* sm */
+  .home-gallery-btn {
+    display: inline-block;
+  }
+}
+@media (min-width: 992px) { /* lg */
+  .home-gallery-btn {
+    font-size: 2rem;
   }
 }
 
