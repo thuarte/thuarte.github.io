@@ -21,7 +21,7 @@ function getAlbumsAcrylic() {
 function getAlbumBlossoms() {
 	return {
 		name:"Blossoms",
-		image:"pics/gallery/acrylic/summer_love.jpg",
+		image:"pics/gallery/acrylic/flowers.jpg",
 		pictures: [
 			{
 				title:"Azalea",
