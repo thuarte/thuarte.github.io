@@ -1,12 +1,12 @@
 ﻿// Acrylic albums
 function getAlbumsAcrylic() {
 	let albums = [];
-	albums = albums.concat(getAlbumBlossoms());
-	albums = albums.concat(getAlbumSacredMountains());
+	albums = albums.concat(getAlbumMarine());
 	albums = albums.concat(getAlbumEnchantedForests());
-	albums = albums.concat(getAlbumSeaLife());
 	albums = albums.concat(getAlbumAbstract());
-	
+	albums = albums.concat(getAlbumSacredMountains());
+	albums = albums.concat(getAlbumBlossoms());
+
 	for (var album of albums) {
 		for (var picture of album.pictures) {
 			if (!picture.comment) {
@@ -124,7 +124,7 @@ function getAlbumSacredMountains() {
 function getAlbumEnchantedForests() {
 	return {
 		name:"Enchanted Forests",
-		image:"pics/gallery/acrylic/enchanted_forest2.jpg",
+		image:"pics/gallery/acrylic/enchanted_forest6.jpg",
 		pictures: [
 			{
 				title:"Enchanted Forest VI",
@@ -217,9 +217,9 @@ function getAlbumEnchantedForests() {
 	}
 }
 
-function getAlbumSeaLife() {
+function getAlbumMarine() {
 	return {
-		name:"Sea Life",
+		name:"Marine",
 		image:"pics/gallery/acrylic/rise.jpg",
 		pictures: [
 			{
@@ -284,8 +284,14 @@ function getAlbumSeaLife() {
 function getAlbumAbstract() {
 	return {
 		name:"Abstract",
-		image:"pics/gallery/acrylic/infinity.jpg",
+		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
+			{
+				title:"Tropical love",
+				url:"pics/gallery/acrylic/tropical_love.jpg",
+				comment:"Acrylic, water colour on paper",
+				width:38, height:56, year:2023,
+			},
 			{
 				title:"Vitality II",
 				url:"pics/gallery/acrylic/vitality2.jpg",
