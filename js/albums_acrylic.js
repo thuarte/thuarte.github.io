@@ -287,6 +287,18 @@ function getAlbumAbstract() {
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
 			{
+				title:"Diversity",
+				url:"pics/gallery/acrylic/diversity.jpg",
+				comment:"Acrylic, water colour on paper",
+				width:29, height:39, year:2023,
+			},
+			{
+				title:"Tropical love",
+				url:"pics/gallery/acrylic/tropical_love.jpg",
+				comment:"Acrylic, water colour on paper",
+				width:29, height:39, year:2023,
+			},
+			{
 				title:"Tropical love",
 				url:"pics/gallery/acrylic/tropical_love.jpg",
 				comment:"Acrylic, water colour on paper",
@@ -310,15 +322,16 @@ function getAlbumAbstract() {
 				width:100, height:80, year:2022,
 			},
 			{
-				title:"Abstract",
-				url:"pics/gallery/acrylic/abstract.jpg",
-				width:65, height:81, year:2022, tag:"SOLD",
+				title:"Connection",
+				url:"pics/gallery/acrylic/connection.jpg",
+				comment:"Acrylic, plant fiber on canvas",
+				width:81, height:65, year:2021,
 			},
 			{
-				title:"Desire",
-				url:"pics/gallery/acrylic/desire.jpg",
+				title:"Reconciliation",
+				url:"pics/gallery/acrylic/reconciliation.jpg",
 				comment:"Acrylic, plant fiber on canvas",
-				width:50, height:100, year:2022, tag:"SOLD",
+				width:50, height:70, year:2021,
 			},
 			{
 				title:"Infinity",
@@ -359,22 +372,21 @@ function getAlbumAbstract() {
 				width:30, height:40, year:2021,
 			},
 			{
-				title:"Reconciliation",
-				url:"pics/gallery/acrylic/reconciliation.jpg",
+				title:"Desire",
+				url:"pics/gallery/acrylic/desire.jpg",
 				comment:"Acrylic, plant fiber on canvas",
-				width:50, height:70, year:2021,
-			},
-			{
-				title:"Connection",
-				url:"pics/gallery/acrylic/connection.jpg",
-				comment:"Acrylic, plant fiber on canvas",
-				width:81, height:65, year:2021,
+				width:50, height:100, year:2022, tag:"SOLD",
 			},
 			{
 				title:"Spring is here!",
 				url:"pics/gallery/acrylic/spring_is_here.jpg",
 				comment:"Acrylic, plant fiber on canvas",
 				width:81, height:65, year:2021, tag:"SOLD",
+			},
+			{
+				title:"Abstract",
+				url:"pics/gallery/acrylic/abstract.jpg",
+				width:65, height:81, year:2022, tag:"SOLD",
 			},
 			{
 				title:"Paysage",
@@ -410,7 +422,7 @@ function getAlbumAbstract() {
 			{
 				title:"Déjà vu",
 				url:"pics/gallery/acrylic/deja_vu.jpg",
-				width:50, height:50, year:2017,
+				width:50, height:50, year:2017, tag:"SOLD"
 			},
 			{
 				title:"Utopia",
