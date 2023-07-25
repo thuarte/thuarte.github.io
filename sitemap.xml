@@ -12,24 +12,9 @@
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://thuarte.github.io/gallery_acrylic.html</loc>
+  <loc>https://thuarte.github.io/gallery_album.html</loc>
   <lastmod>2021-04-06T11:47:50+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thuarte.github.io/gallery_monoprint.html</loc>
-  <lastmod>2021-04-06T11:47:50+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://thuarte.github.io/gallery_silk.html</loc>
-  <lastmod>2021-04-06T11:47:50+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://thuarte.github.io/gallery_oil.html</loc>
-  <lastmod>2021-04-06T11:47:50+00:00</lastmod>
-  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://thuarte.github.io/activities.html</loc>

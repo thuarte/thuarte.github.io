@@ -37,7 +37,7 @@
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="gallery_acrylic.html">Gallery</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="activities.html">Activities</a>
@@ -52,50 +52,27 @@
   </div>
 </nav>
 
-<div id="thu-arte-carousel" class="carousel slide mb-5" data-ride="carousel">
-
-  <ul class="carousel-indicators">
-    <li data-target="#thu-arte-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#thu-arte-carousel" data-slide-to="1"></li>
-    <li data-target="#thu-arte-carousel" data-slide-to="2"></li>
-  </ul>
-  
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="w-100 h-100" src="pics/carousel/gallery.jpg" alt="Gallery" width="2100" height="600">
-        <div class="carousel-caption">
-          <a class="carousel-btn" href="gallery_acrylic.html">Discover my gallery</a>
-        </div>
-    </div>
-    <div class="carousel-item">
-      <img class="w-100 h-100" src="pics/carousel/activities.jpg" alt="Activities" width="2100" height="600">
-        <div class="carousel-caption">
-          <a class="carousel-btn" href="activities.html">My activities</a>
-        </div>
-    </div>
-    <div class="carousel-item">
-      <img class="w-100 h-100" src="pics/carousel/exhibitions.jpg" alt="Exhibitions" width="2100" height="600">
-        <div class="carousel-caption">
-          <a class="carousel-btn" href="exhibitions.html">My exhibitions</a>
-        </div>
+<div class="picture-btn picture-btn-gallery d-flex" onclick="toGallery()">
+  <div class="d-flex flex-grow-1 align-items-center justify-content-center">
+    <div>
+      <div class="d-flex justify-content-center">
+        <h1 class="picture-btn-text display-1 m-0">Gallery</h1>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a class="home-gallery-btn" href="gallery.html">Visit</a>
+      </div>
     </div>
   </div>
-  
-  <a class="carousel-control-prev" href="#thu-arte-carousel" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#thu-arte-carousel" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
 </div>
+<script>
+  function toGallery() {
+    window.location.href = "gallery.html";
+  }
+</script>
 
-<div class="container-fluid text-center">
+<div class="container text-center">
   
-  <p class="px-5 pb-4" style="font-size: 1.2rem;">
-    Welcome! Here you will discover paintings carrying exotic moods and lively colors from contemporary artist Thư Anh Nguyễn.
-  </p>
-  
-  <!-- <div>
+  <!-- <div class="mt-4">
     <h1>Exhibition <q>Vitalité</q></h1>
     <p>
       Come and see my works being exhibited from 5<sup>th</sup> to 28<sup>th</sup> May 2023 at
@@ -114,56 +91,41 @@
       </div>
     </div>
   </div> -->
-  
-  <h1>Gallery</h1>
-  <!--
-  <p>
-    <q>I wish you a good time discovering my works!</q>
-    <span class="text-muted small pl-1">&mdash;&nbsp;Thư</span>
-  </p>
-  -->
-  <div class="row">
-    <div class="col-lg-3 mb-3">
-      <div class="card picture-btn picture-btn-acrylic">
-        <h2 class="picture-btn-text">Acrylic</h2>
-        <div class="card-img-overlay">
-          <a href="gallery_acrylic.html" class="stretched-link"></a>
+
+  <div class="d-md-flex mt-5">
+    <div class="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column">
+        <div class="flex-grow-1 mx-3" style="font-size: 150%;">
+          <q >
+            I paint in connection with nature, beauty, spirituality, dreams, fantasies and reality.
+            My goal is to create artworks that can reflect light, hope, happiness and joy.
+            I am in constant need of exploration with colour, medium, texture and composition in my creation process.
+          </q>
         </div>
+        <div style="height: 60px;"></div>
       </div>
     </div>
-    <div class="col-lg-3 mb-3">
-      <div class="card picture-btn picture-btn-monoprint">
-        <h2 class="picture-btn-text">Monoprint</h2>
-        <div class="card-img-overlay">
-          <a href="gallery_monoprint.html" class="stretched-link"></a>
-        </div>
+
+    <div class="mx-4" onclick="toContact()">
+      <div>
+        <img src="./pics/contact/profile.jpg" alt="Contact" class="rounded-circle" style="width:300px; height: 300px;">
+      </div>
+      <div class="d-flex flex-column justify-content-center" style="height: 60px;">
+        <a class="btn btn-secondary mx-auto" href="contact.html" role="button">Contact me!</a>
       </div>
     </div>
-    <div class="col-lg-3 mb-3">
-      <div class="card picture-btn picture-btn-silk">
-        <h2 class="picture-btn-text">Silk</h2>
-        <div class="card-img-overlay">
-          <a href="gallery_silk.html" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 mb-3">
-      <div class="card picture-btn picture-btn-oil">
-        <h2 class="picture-btn-text">Oil</h2>
-        <div class="card-img-overlay">
-          <a href="gallery_oil.html" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
+    <script>
+      function toContact() {
+        window.location.href = "contact.html";
+      }
+    </script>
   </div>
-  
-  <hr>
-  
+
   <div class="row">
   
-    <div class="col-lg-4 my-3">
+    <div class="col-md-6 my-3">
       <div class="card menu-card">
-        <img class="menu-card-img" src="pics/menu2/activities.jpg" alt="Activities">
+        <img class="menu-card-img menu-card-img-sm" src="pics/menu2/activities.jpg" alt="Activities">
         <div class="card-body">
           <h1 class="card-title">
             Activities
@@ -178,9 +140,9 @@
       </div>
     </div>
 	
-    <div class="col-lg-4 my-3">
+    <div class="col-md-6 my-3">
       <div class="card menu-card">
-        <img class="menu-card-img" src="pics/menu2/exhibitions.jpg" alt="Exhibitions">
+        <img class="menu-card-img menu-card-img-sm" src="pics/menu2/exhibitions.jpg" alt="Exhibitions">
         <div class="card-body">
           <h1 class="card-title">
             Exhibitions
@@ -194,27 +156,7 @@
         </div>
       </div>
     </div>
-	
-    <div class="col-lg-4 my-3">
-      <div class="card menu-card">
-        <img class="menu-card-img" src="pics/menu2/contact.jpg" alt="Contact">
-        <div class="card-body">
-          <h1 class="card-title">
-            Contact
-          </h1>
-          <p class="card-text">
-		      <p>I will be happy to hear from you!</p>
-          </p>
-        </div>
-        <div class="mx-3">
-          <a class="btn btn-secondary stretched-link align-bottom mx-auto mb-5" href="contact.html" role="button">Contact me &raquo;</a>
-        </div>
-      </div>
-    </div>
-	
   </div>  
-  
-  <hr>
   
   <h1>Shopping</h1>
   <p>
