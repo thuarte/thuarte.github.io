@@ -139,28 +139,18 @@ function getAlbumEnchantedForests() {
 				width:60, height:80, year:2022,
 			},
 			{
-				title:"Into the unknown",
-				url:"pics/gallery/acrylic/into_the_unkown.jpg",
-				width:60, height:80, year:2022, tag:"SOLD",
-			},
-			{
 				title:"Enchanted Forest II",
 				url:"pics/gallery/acrylic/enchanted_forest2.jpg",
 				width:60, height:60, year:2021,
 			},
-			{
-				title:"Enchanted Forest IV",
-				url:"pics/gallery/acrylic/enchanted_forest4.jpg",
+				{
+				title:"Enchanted Forest III",
+				url:"pics/gallery/acrylic/enchanted_forest3.jpg",
 				width:60, height:60, year:2021,
 			},
 			{
 				title:"Intuition",
 				url:"pics/gallery/acrylic/intuition.jpg",
-				width:60, height:60, year:2021,
-			},
-			{
-				title:"Enchanted Forest III",
-				url:"pics/gallery/acrylic/enchanted_forest3.jpg",
 				width:60, height:60, year:2021,
 			},
 			{
@@ -179,11 +169,6 @@ function getAlbumEnchantedForests() {
 				width:30, height:40, year:2021, tag:"SOLD",
 			},
 			{
-				title:"Enchanted Forest I",
-				url:"pics/gallery/acrylic/enchanted_forest1.jpg",
-				width:60, height:60, year:2021, tag:"SOLD",
-			},
-			{
 				title:"Pursuit for happiness",
 				url:"pics/gallery/acrylic/pursuit_for_happiness.jpg",
 				width:150, height:70, year:2021,
@@ -191,6 +176,11 @@ function getAlbumEnchantedForests() {
 			{
 				title:"A crane's dream",
 				url:"pics/gallery/acrylic/cranes.jpg",
+				width:60, height:60, year:2021,
+			},
+			{
+				title:"Enchanted Forest IV",
+				url:"pics/gallery/acrylic/enchanted_forest4.jpg",
 				width:60, height:60, year:2021,
 			},
 			{
@@ -202,6 +192,11 @@ function getAlbumEnchantedForests() {
 				title:"Childhood's dream",
 				url:"pics/gallery/acrylic/childhood_dream.jpg",
 				width:19, height:24, year:2021,
+			},
+			{
+				title:"Soliloquie",
+				url:"pics/gallery/acrylic/into_the_unkown.jpg",
+				width:60, height:80, year:2022, tag:"SOLD",
 			},
 			{
 				title:"Once upon a december",
@@ -220,7 +215,7 @@ function getAlbumEnchantedForests() {
 function getAlbumMarine() {
 	return {
 		name:"Marine",
-		image:"pics/gallery/acrylic/rise.jpg",
+		image:"pics/gallery/acrylic/journey2.jpg",
 		pictures: [
 			{
 				title:"Journey II",
@@ -243,11 +238,6 @@ function getAlbumMarine() {
 				width:81, height:65, year:2022,
 			},
 			{
-				title:"Harmony",
-				url:"pics/gallery/acrylic/harmony.jpg",
-				width:50, height:100, year:2022, tag:"SOLD",
-			},
-			{
 				title:"Carousel",
 				url:"pics/gallery/acrylic/carousel.jpg",
 				width:65, height:81, year:2022,
@@ -261,6 +251,11 @@ function getAlbumMarine() {
 				title:"Journey",
 				url:"pics/gallery/acrylic/journey.jpg",
 				width:100, height:80, year:2021,
+			},
+			{
+				title:"Harmony",
+				url:"pics/gallery/acrylic/harmony.jpg",
+				width:50, height:100, year:2022, tag:"SOLD",
 			},
 			{
 				title:"The Seekers",
@@ -286,6 +281,12 @@ function getAlbumAbstract() {
 		name:"Abstract",
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
+				{
+				title:"Diversity II",
+				url:"pics/gallery/acrylic/diversity2.jpg",
+				comment:"Acrylic, water colour on paper",
+				width:29, height:39, year:2023,
+			},
 			{
 				title:"Diversity",
 				url:"pics/gallery/acrylic/diversity.jpg",
