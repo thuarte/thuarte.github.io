@@ -169,6 +169,11 @@ function getAlbumEnchantedForests() {
 				width:30, height:40, year:2021, tag:"SOLD",
 			},
 			{
+				title:"Enchanted Forest I",
+				url:"pics/gallery/acrylic/enchanted_forest1.jpg",
+				width:60, height:60, year:2021, tag:"SOLD",
+			},
+			{
 				title:"Pursuit for happiness",
 				url:"pics/gallery/acrylic/pursuit_for_happiness.jpg",
 				width:150, height:70, year:2021,
@@ -182,11 +187,6 @@ function getAlbumEnchantedForests() {
 				title:"Enchanted Forest IV",
 				url:"pics/gallery/acrylic/enchanted_forest4.jpg",
 				width:60, height:60, year:2021,
-			},
-			{
-				title:"A night's symphony I",
-				url:"pics/gallery/acrylic/night_symphony1.jpg",
-				width:30, height:40, year:2021, tag:"SOLD",
 			},
 			{
 				title:"Childhood's dream",
@@ -218,9 +218,18 @@ function getAlbumMarine() {
 		image:"pics/gallery/acrylic/journey2.jpg",
 		pictures: [
 			{
+				title:"Journey I",
+				url:"pics/gallery/acrylic/journey1.jpg",
+				width:80, height:80, year:2023,
+			},{
 				title:"Journey II",
 				url:"pics/gallery/acrylic/journey2.jpg",
 				width:80, height:80, year:2023,
+			},
+			{
+				title:"Journey",
+				url:"pics/gallery/acrylic/journey.jpg",
+				width:100, height:80, year:2021,
 			},
 			{
 				title:"Rise",
@@ -246,11 +255,6 @@ function getAlbumMarine() {
 				title:"Color me happy",
 				url:"pics/gallery/acrylic/color_me_happy.jpg",
 				width:60, height:60, year:2021, tag:"SOLD",
-			},
-			{
-				title:"Journey",
-				url:"pics/gallery/acrylic/journey.jpg",
-				width:100, height:80, year:2021,
 			},
 			{
 				title:"Harmony",
