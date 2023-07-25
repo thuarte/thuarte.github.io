@@ -301,12 +301,6 @@ function getAlbumAbstract() {
 				title:"Tropical love",
 				url:"pics/gallery/acrylic/tropical_love.jpg",
 				comment:"Acrylic, water colour on paper",
-				width:29, height:39, year:2023,
-			},
-			{
-				title:"Tropical love",
-				url:"pics/gallery/acrylic/tropical_love.jpg",
-				comment:"Acrylic, water colour on paper",
 				width:38, height:56, year:2023,
 			},
 			{
