@@ -403,9 +403,19 @@ function getAlbumAbstract() {
 				width:40, height:40, year:2021, tag:"SOLD",
 			},
 			{
-				title:"A blue blue soul",
-				url:"pics/gallery/acrylic/blue_soul.jpg",
-				width:20, height:30, year:2019,
+				title:"Utopia",
+				url:"pics/gallery/acrylic/utopia.jpg",
+				width:100, height:100, year:2016,
+			},
+			{
+				title:"Fiction",
+				url:"pics/gallery/acrylic/fiction.jpg",
+				width:60, height:40, year:2016,
+			},
+			{
+				title:"Déjà vu",
+				url:"pics/gallery/acrylic/deja_vu.jpg",
+				width:50, height:50, year:2017, tag:"SOLD"
 			},
 			{
 				title:"Time, Space and Existence",
@@ -417,21 +427,6 @@ function getAlbumAbstract() {
 				title:"The doors",
 				url:"pics/gallery/acrylic/doors.jpg",
 				width:50, height:50, year:2017,
-			},
-			{
-				title:"Déjà vu",
-				url:"pics/gallery/acrylic/deja_vu.jpg",
-				width:50, height:50, year:2017, tag:"SOLD"
-			},
-			{
-				title:"Utopia",
-				url:"pics/gallery/acrylic/utopia.jpg",
-				width:100, height:100, year:2016,
-			},
-			{
-				title:"Fiction",
-				url:"pics/gallery/acrylic/fiction.jpg",
-				width:60, height:40, year:2016,
 			},
 		]
 	}
