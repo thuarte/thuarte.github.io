@@ -288,31 +288,31 @@ function getAlbumAbstract() {
 				{
 				title:"Diversity II",
 				url:"pics/gallery/acrylic/diversity2.jpg",
-				comment:"Acrylic, water colour on paper",
+				comment:"Acrylic, watercolor on paper",
 				width:29, height:39, year:2023,
 			},
 			{
 				title:"Diversity",
 				url:"pics/gallery/acrylic/diversity.jpg",
-				comment:"Acrylic, water colour on paper",
+				comment:"Acrylic, watercolor on paper",
 				width:29, height:39, year:2023,
 			},
 			{
 				title:"Tropical love",
 				url:"pics/gallery/acrylic/tropical_love.jpg",
-				comment:"Acrylic, water colour on paper",
+				comment:"Acrylic, watercolor on paper",
 				width:38, height:56, year:2023,
 			},
 			{
 				title:"Vitality II",
 				url:"pics/gallery/acrylic/vitality2.jpg",
-				comment:"Acrylic, water colour on paper",
+				comment:"Acrylic, watercolor on paper",
 				width:38, height:56, year:2023,
 			},
 			{
 				title:"Revitalisation",
 				url:"pics/gallery/acrylic/revitalisation.jpg",
-				comment:"Acrylic, water colour on paper",
+				comment:"Acrylic, watercolor on paper",
 				width:38, height:56, year:2023,
 			},
 			{
