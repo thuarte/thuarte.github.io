@@ -285,7 +285,13 @@ function getAlbumAbstract() {
 		name:"Abstract",
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
-				{
+			{
+				title:"Nature's melody",
+				url:"pics/gallery/acrylic/nature_melody.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:29, height:39, year:2023,
+			},
+			{
 				title:"Diversity II",
 				url:"pics/gallery/acrylic/diversity2.jpg",
 				comment:"Acrylic, watercolor on paper",
