@@ -53,20 +53,24 @@ function getAlbumSilk() {
 		pictures: [
 			{
 				url:"pics/gallery/silk/bridal_shop.jpg",
+				comment:"Watercolor on silk",
 				year:2020,
 			},
 			{
 				title:"Madame Tâm",
 				url:"pics/gallery/silk/madame_tam.jpg",
+				comment:"Watercolor on silk",
 				year:2020, tag:"SOLD",
 			},
 			{
 				url:"pics/gallery/silk/wedding.jpg",
+				comment:"Watercolor on silk",
 				year:2020,
 			},
 			{
 				title:"Self-portrait",
 				url:"pics/gallery/silk/selfportrait.jpg",
+				comment:"Watercolor on silk",
 				year:2019,
 			},
 		]
