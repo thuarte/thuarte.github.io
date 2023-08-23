@@ -6,6 +6,7 @@ function getAlbumsAcrylic() {
 	albums = albums.concat(getAlbumAbstract());
 	albums = albums.concat(getAlbumSacredMountains());
 	albums = albums.concat(getAlbumBlossoms());
+	albums = albums.concat(getAlbumPaper());
 
 	for (var album of albums) {
 		for (var picture of album.pictures) {
@@ -292,42 +293,6 @@ function getAlbumAbstract() {
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
 			{
-				title:"Nature's melody",
-				url:"pics/gallery/acrylic/nature_melody.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:29, height:39, year:2023,
-			},
-			{
-				title:"Diversity II",
-				url:"pics/gallery/acrylic/diversity2.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:29, height:39, year:2023,
-			},
-			{
-				title:"Diversity",
-				url:"pics/gallery/acrylic/diversity.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:29, height:39, year:2023,
-			},
-			{
-				title:"Tropical love",
-				url:"pics/gallery/acrylic/tropical_love.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:38, height:56, year:2023,
-			},
-			{
-				title:"Vitality II",
-				url:"pics/gallery/acrylic/vitality2.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:38, height:56, year:2023,
-			},
-			{
-				title:"Revitalisation",
-				url:"pics/gallery/acrylic/revitalisation.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:38, height:56, year:2023,
-			},
-			{
 				title:"Soliloquie",
 				url:"pics/gallery/acrylic/soliloquie.jpg",
 				width:100, height:80, year:2022,
@@ -439,6 +404,51 @@ function getAlbumAbstract() {
 				title:"The doors",
 				url:"pics/gallery/acrylic/doors.jpg",
 				width:50, height:50, year:2017,
+			},
+		]
+	}
+}
+
+function getAlbumPaper() {
+	return {
+		name:"Paper language",
+		image:"pics/gallery/acrylic/nature_melody.jpg",
+		pictures: [
+			{
+				title:"Nature's melody",
+				url:"pics/gallery/acrylic/nature_melody.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:29, height:39, year:2023,
+			},
+			{
+				title:"Diversity II",
+				url:"pics/gallery/acrylic/diversity2.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:29, height:39, year:2023,
+			},
+			{
+				title:"Diversity",
+				url:"pics/gallery/acrylic/diversity.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:29, height:39, year:2023,
+			},
+			{
+				title:"Tropical love",
+				url:"pics/gallery/acrylic/tropical_love.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:38, height:56, year:2023,
+			},
+			{
+				title:"Vitality II",
+				url:"pics/gallery/acrylic/vitality2.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:38, height:56, year:2023,
+			},
+			{
+				title:"Revitalisation",
+				url:"pics/gallery/acrylic/revitalisation.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:38, height:56, year:2023,
 			},
 		]
 	}
