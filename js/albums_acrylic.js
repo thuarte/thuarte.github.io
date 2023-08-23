@@ -415,6 +415,12 @@ function getAlbumPaper() {
 		image:"pics/gallery/acrylic/nature_melody.jpg",
 		pictures: [
 			{
+				title:"The flow",
+				url:"pics/gallery/acrylic/the_flow.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:29, height:39, year:2023,
+			},
+			{
 				title:"Nature's melody",
 				url:"pics/gallery/acrylic/nature_melody.jpg",
 				comment:"Acrylic, watercolor on paper",
