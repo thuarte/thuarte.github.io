@@ -131,7 +131,7 @@ function getAlbumEnchantedForests() {
 				title:"Butterfly in a storm",
 				url:"pics/gallery/acrylic/enchanted_forest7.jpg",
 				comment:"Acrylic on canvas",
-				width:100, height:80, year:2023,
+				width:100, height:80, year:2023, tag:"SOLD",
 			},
 			{
 				title:"Enchanted Forest VI",
