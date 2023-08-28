@@ -76,12 +76,12 @@ function getAlbumSacredMountains() {
 			{
 				title:"Sacred Mountain VII",
 				url:"pics/gallery/acrylic/sacred_mountain7.jpg",
-				width:40, height:40, year:2023,
+				width:50, height:50, year:2023,
 			},
 			{
 				title:"Sacred Mountain VI",
 				url:"pics/gallery/acrylic/sacred_mountain6.jpg",
-				width:40, height:40, year:2023,
+				width:50, height:50, year:2023,
 			},
 			{
 				title:"Sacred Mountains",
