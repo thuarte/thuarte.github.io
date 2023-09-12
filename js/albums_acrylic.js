@@ -307,12 +307,6 @@ function getAlbumAbstract() {
 		name:"Abstract",
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
-		
-			{
-				title:"Emotions II",
-				url:"pics/gallery/acrylic/emotions2.jpg",
-				width:40, height:40, year:2023,
-			},
 			{
 				title:"Untitled",
 				url:"pics/gallery/acrylic/untitled.jpg",
