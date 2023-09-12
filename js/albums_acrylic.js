@@ -138,6 +138,11 @@ function getAlbumEnchantedForests() {
 		image:"pics/gallery/acrylic/enchanted_forest6.jpg",
 		pictures: [
 			{
+				title:"Intuition II",
+				url:"pics/gallery/acrylic/intuition2.jpg",
+				width:40, height:40, year:2023,
+			},
+			{
 				title:"Butterfly in a storm",
 				url:"pics/gallery/acrylic/enchanted_forest7.jpg",
 				comment:"Acrylic on canvas",
@@ -166,7 +171,7 @@ function getAlbumEnchantedForests() {
 				width:60, height:60, year:2021,
 			},
 			{
-				title:"Intuition",
+				title:"Intuition I",
 				url:"pics/gallery/acrylic/intuition.jpg",
 				width:60, height:60, year:2021,
 			},
@@ -302,6 +307,11 @@ function getAlbumAbstract() {
 		name:"Abstract",
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
+			{
+				title:"Untitled",
+				url:"pics/gallery/acrylic/untitled.jpg",
+				width:40, height:40, year:2023,
+			},
 			{
 				title:"Soliloquie",
 				url:"pics/gallery/acrylic/soliloquie.jpg",
