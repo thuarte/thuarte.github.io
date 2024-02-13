@@ -308,6 +308,16 @@ function getAlbumAbstract() {
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
 			{
+				title:"Shadows II",
+				url:"pics/gallery/acrylic/shadows2.jpg",
+				width:40, height:40, year:2023,
+			},
+			{
+				title:"Shadows I",
+				url:"pics/gallery/acrylic/shadows1.jpg",
+				width:40, height:40, year:2023,
+			},
+			{
 				title:"Emotions I",
 				url:"pics/gallery/acrylic/emotions1.jpg",
 				width:40, height:40, year:2023,
