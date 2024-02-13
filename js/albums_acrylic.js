@@ -486,12 +486,6 @@ function getAlbumPaper() {
 				comment:"Acrylic, watercolor on paper",
 				width:29, height:39, year:2023, tag:"SOLD", 
 			},
-			{
-				title:"The flow",
-				url:"pics/gallery/acrylic/the_flow.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:29, height:39, year:2023, tag:"SOLD", 
-			},
 		]
 	}
 }
