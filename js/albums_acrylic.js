@@ -445,12 +445,6 @@ function getAlbumPaper() {
 		image:"pics/gallery/acrylic/nature_melody.jpg",
 		pictures: [
 			{
-				title:"The flow",
-				url:"pics/gallery/acrylic/the_flow.jpg",
-				comment:"Acrylic, watercolor on paper",
-				width:29, height:39, year:2023,
-			},
-			{
 				title:"Nature's melody",
 				url:"pics/gallery/acrylic/nature_melody.jpg",
 				comment:"Acrylic, watercolor on paper",
@@ -485,6 +479,18 @@ function getAlbumPaper() {
 				url:"pics/gallery/acrylic/revitalisation.jpg",
 				comment:"Acrylic, watercolor on paper",
 				width:38, height:56, year:2023,
+			},
+			{
+				title:"The flow",
+				url:"pics/gallery/acrylic/the_flow.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:29, height:39, year:2023, tag:"SOLD", 
+			},
+			{
+				title:"The flow",
+				url:"pics/gallery/acrylic/the_flow.jpg",
+				comment:"Acrylic, watercolor on paper",
+				width:29, height:39, year:2023, tag:"SOLD", 
 			},
 		]
 	}
