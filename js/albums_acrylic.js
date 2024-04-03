@@ -305,7 +305,12 @@ function getAlbumMarine() {
 				width:60, height:60, year:2021, tag:"SOLD",
 			},
 			{
-				title:"Harmony",
+				title:"Harmony II",
+				url:"pics/gallery/acrylic/harmony2.jpg",
+				width:80, height:80, year:2023, tag:"SOLD"
+			},
+			{
+				title:"Harmony I",
 				url:"pics/gallery/acrylic/harmony.jpg",
 				width:50, height:100, year:2022, tag:"SOLD",
 			},
