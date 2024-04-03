@@ -48,19 +48,32 @@ function getAlbumMonoprint() {
 
 function getAlbumSilk() {
 	return {
-		name:"Silk",
-		image:"pics/menu1/silk.jpg",
+		name:"Watercolor on Silk",
+		image:"pics/menu1/silk2.jpg",
 		pictures: [
 			{
-				url:"pics/gallery/silk/bridal_shop.jpg",
+				title:"The Game",
+				url:"pics/gallery/silk/the_game.jpg",
 				comment:"Watercolor on silk",
-				year:2020,
+				width:30, height:30, year:2024, 
+			},
+			{
+				title:"Wandering I",
+				url:"pics/gallery/silk/wandering1.jpg",
+				comment:"Watercolor on silk",
+				width:20, height:20, year:2024, 
+			},
+			{
+				title:"Wandering II",
+				url:"pics/gallery/silk/wandering2.jpg",
+				comment:"Watercolor on silk",
+				width:20, height:20, year:2024, 
 			},
 			{
 				title:"Madame Tâm",
 				url:"pics/gallery/silk/madame_tam.jpg",
 				comment:"Watercolor on silk",
-				year:2020, tag:"SOLD",
+				width:60, height:80, year:2020, tag:"SOLD",
 			},
 			{
 				url:"pics/gallery/silk/wedding.jpg",
