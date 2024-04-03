@@ -48,7 +48,7 @@ function getAlbumMonoprint() {
 
 function getAlbumSilk() {
 	return {
-		name:"Watercolor on Silk",
+		name:"Silk paintings",
 		image:"pics/menu1/silk2.jpg",
 		pictures: [
 			{
