@@ -1,8 +1,8 @@
 ﻿// Other albums
 function getAlbumsOther() {
 	let albums = [];
-	albums = albums.concat(getAlbumMonoprint());
 	albums = albums.concat(getAlbumSilk());
+	albums = albums.concat(getAlbumMonoprint());
 	albums = albums.concat(getAlbumOil());
 	return albums;
 };
