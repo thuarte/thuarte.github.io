@@ -272,7 +272,7 @@ function getAlbumMarine() {
 			{
 				title:"Journey II",
 				url:"pics/gallery/acrylic/journey2.jpg",
-				width:80, height:80, year:2023,
+				width:80, height:80, year:2023, tag:"SOLD",
 			},
 			{
 				title:"Journey",
