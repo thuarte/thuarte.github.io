@@ -203,7 +203,7 @@ function getAlbumEnchantedForests() {
 			{
 				title:"A crane's dream",
 				url:"pics/gallery/acrylic/cranes.jpg",
-				width:60, height:60, year:2021,
+				width:60, height:60, year:2021, tag:"SOLD",
 			},
 			{
 				title:"Enchanted Forest IV",
