@@ -101,7 +101,7 @@ function getAlbumSacredMountains() {
 			{
 				title:"Sacred Mountain II",
 				url:"pics/gallery/acrylic/sacred_mountain2.jpg",
-				width:65, height:81, year:2021,
+				width:65, height:81, year:2021, tag:"SOLD",
 			},
 			{
 				title:"Sacred Mountain III",
