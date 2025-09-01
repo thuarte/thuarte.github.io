@@ -2,7 +2,7 @@
 function getAlbumsOther() {
 	let albums = [];
 	albums = albums.concat(getAlbumSilk());
-	albums = albums.concat(getAlbumMonoprint());
+	// albums = albums.concat(getAlbumMonoprint());
 	albums = albums.concat(getAlbumOil());
 	return albums;
 };
@@ -52,10 +52,10 @@ function getAlbumSilk() {
 		image:"pics/menu1/silk2.jpg",
 		pictures: [
 			{
-				title:"The Game",
-				url:"pics/gallery/silk/the_game.jpg",
+				title:"Wandering III",
+				url:"pics/gallery/silk/wandering3.jpg",
 				comment:"Watercolor on silk",
-				width:30, height:30, year:2024, 
+				width:20, height:20, year:2025, 
 			},
 			{
 				title:"Wandering I",
@@ -68,6 +68,12 @@ function getAlbumSilk() {
 				url:"pics/gallery/silk/wandering2.jpg",
 				comment:"Watercolor on silk",
 				width:20, height:20, year:2024, 
+			},
+			{
+				title:"The Game",
+				url:"pics/gallery/silk/the_game.jpg",
+				comment:"Watercolor on silk",
+				width:30, height:30, year:2024, 
 			},
 			{
 				title:"Madame Tâm",
@@ -96,11 +102,11 @@ function getAlbumOil() {
 				comment:"Oil on canvas",
 				year:2018, tag:"SOLD",
 			},
-			{
-				url:"pics/gallery/oil/wedding.jpg",
-				comment:"Oil on canvas",
-				year:2020,
-			},
+			// {
+			// 	url:"pics/gallery/oil/wedding.jpg",
+			// 	comment:"Oil on canvas",
+			// 	year:2020,
+			// },
 			{
 				url:"pics/gallery/oil/gate.jpg",
 				comment:"Oil on canvas",
