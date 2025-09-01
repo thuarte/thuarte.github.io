@@ -75,11 +75,7 @@ function getAlbumSilk() {
 				comment:"Watercolor on silk",
 				width:60, height:80, year:2020, tag:"SOLD",
 			},
-			{
-				url:"pics/gallery/silk/wedding.jpg",
-				comment:"Watercolor on silk",
-				year:2020,
-			},
+			
 			{
 				title:"Self-portrait",
 				url:"pics/gallery/silk/selfportrait.jpg",
