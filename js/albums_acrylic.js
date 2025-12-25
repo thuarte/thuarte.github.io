@@ -28,6 +28,7 @@ function getAlbumBlossoms() {
 				title:"Azalea",
 				url:"pics/gallery/acrylic/azalea.jpg",
 				width:80, height:80, year:2023,
+				tag:"SOLD"
 			},
 			{
 				title:"Summer love",
