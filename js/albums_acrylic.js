@@ -262,11 +262,6 @@ function getAlbumMarine() {
 				year:2023,
 			},
 			{
-				title:"Rise Collection",
-				url:"pics/gallery/acrylic/eveil_collection.jpg",
-				year:2023,
-			},
-			{
 				title:"Journey I",
 				url:"pics/gallery/acrylic/journey1.jpg",
 				width:80, height:80, year:2023,
