@@ -247,29 +247,19 @@ function getAlbumMarine() {
 		image:"pics/gallery/acrylic/journey2.jpg",
 		pictures: [
 			{
+				title:"Journey III",
+				url:"pics/gallery/acrylic/journey3.jpg",
+				width:80, height:80, year:2025,
+			},
+			{
 				title:"Rise Collection",
 				url:"pics/gallery/acrylic/eveil_collection.jpg",
 				year:2023,
 			},
 			{
-				title:"Rise I",
-				url:"pics/gallery/acrylic/eveil1.jpg",
-				width:50, height:50, year:2023,
-			},
-			{
-				title:"Rise II",
-				url:"pics/gallery/acrylic/eveil2.jpg",
-				width:50, height:50, year:2023,
-			},
-			{
-				title:"Rise III",
-				url:"pics/gallery/acrylic/eveil3.jpg",
-				width:50, height:50, year:2023,
-			},
-			{
-				title:"Rise IV",
-				url:"pics/gallery/acrylic/eveil4.jpg",
-				width:50, height:50, year:2023,
+				title:"Rise Collection",
+				url:"pics/gallery/acrylic/eveil_collection.jpg",
+				year:2023,
 			},
 			{
 				title:"Journey I",
