@@ -247,6 +247,11 @@ function getAlbumMarine() {
 		image:"pics/gallery/acrylic/journey2.jpg",
 		pictures: [
 			{
+				title:"Harmony III",
+				url:"pics/gallery/acrylic/harmony3.jpg",
+				width:80, height:80, year:2026,
+			},
+			{
 				title:"Journey III",
 				url:"pics/gallery/acrylic/journey3.jpg",
 				width:80, height:80, year:2025,
