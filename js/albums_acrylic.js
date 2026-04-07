@@ -336,6 +336,11 @@ function getAlbumAbstract() {
 		image:"pics/gallery/acrylic/abstract.jpg",
 		pictures: [
 			{
+				title:"Shadows V",
+				url:"pics/gallery/acrylic/shadows5.jpg",
+				width:40, height:40, year:2025, tag:"SOLD",
+			},
+			{
 				title:"Shadows IV",
 				url:"pics/gallery/acrylic/shadows4.jpg",
 				width:35, height:35, year:2024,
@@ -385,7 +390,7 @@ function getAlbumAbstract() {
 				title:"Reconciliation",
 				url:"pics/gallery/acrylic/reconciliation.jpg",
 				comment:"Acrylic, plant fiber on canvas",
-				width:50, height:70, year:2021,
+				width:50, height:70, year:2021, tag:"SOLD",
 			},
 			{
 				title:"Infinity",
